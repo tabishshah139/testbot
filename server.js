@@ -37,7 +37,7 @@ bot.on('message', message =>{
     if (!message.guild) return;
 if (message.content === '+gen', '!gen'){
     message.reply('pong');
-    }
+
  
     if (usedCommandRecently4.has(message.author.id)){
         message.channel.send('``Wait 2 mintue before generating again``')
