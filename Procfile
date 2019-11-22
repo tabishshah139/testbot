@@ -1,3 +1,3 @@
 
-worker: npm start //this is the command you use to start your app.
+worker: python3 server.js
 
