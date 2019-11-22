@@ -24,12 +24,6 @@ bot.user.setActivity(`${bot.guilds.size} servers ${bot.users.size} Users`);
 });
 
 
- !gen uplay',
-
-  '!fortnite', '-fortnite', '!steam', '!spotify', '-spotify', '-steam', '!uplay', '-uplay', '!netflix', '-netflix', '+fortnite', '+steam', 
-  '+uplay', '+origin', '+minecraft', '+minty', '+nitro', '+spotify', '+hulu', '+crunchyroll', 
-'+nordvpn', '+pornhub', '+hbo', '+mailaccess', '+netflix', '+giftcard
-
 
 bot.on('message', message =>{
 if (message.content == "!hulu" || message.content == "-hulu" || message.content == "!crunchyroll" || message.content == "-crunchyroll" || message.content == "!nordvpn" || message.content == "-nordvpn" || message.content == "!pornhub" || message.content == "-pornhub" || message.content == "!minecraft" || message.content == "-minecraft" || message.content == "!wwe" || message.content == "-wwe" || message.content == "!mailaccess" || message.content == "-mailaccess" || message.content == "!origin" || message.content == "-origin" || message.content == "!hbo" || message.content == "-hbo" || message.content == "!pubg" || message.content == "-pubg" || message.content == "!minty" || message.content == "-minty" || message.content == "!ebay" || message.content == "-ebay" || message.content == "!nitro" || message.content == "-nitro" || message.content == "+stock" || message.content == "-stock" || message.content == "!stock" || message.content == ">stock" || message.content == "+stocks" || message.content == "-stocks" || message.content == "!stocks" || message.content == ">stocks" || message.content == "!invite" || message.content == "-invite" || message.content == "!invite" || message.content == "!help" || message.content == "-help" || message.content == "-gen" || message.content == "!gen" || message.content == "!gen fortnite" || message.content == "!fortnite" || message.content == "-fortnite" || message.content == "!steam" || message.content == "!spotify" || message.content == "-spotify" || message.content == "-steam" || message.content == "!uplay" || message.content == "-uplay" || message.content == "!netflix" || message.content == "-netflix" || message.content == "+spotify" || message.content == "+steam" || message.content == "+hulu" || message.content == "+crunchyroll" || message.content == "+minecraft" || message.content == "+nordvpn" || message.content == "+minty" || message.content == "+ebay" || message.content == "+origin" || message.content == "+fortnite" || message.content == "+netflix" || message.content == "+uplay") { 
@@ -40,7 +34,7 @@ if (message.content == "!hulu" || message.content == "-hulu" || message.content 
 
 bot.on('message', message =>{
   if (message.content === '+invite') {
-   message.channel.send(`Invite link of KGEN has sent to your **DMs** :white_check_mark:`)
+   message.channel.send(`Invite link of Tabish Gen BOT has sent to your **DMs** :white_check_mark:`)
 message.author.send("https://discordapp.com/api/oauth2/authorize?client_id=619923933109420097&permissions=0&scope=bot");
    }
 }); 
