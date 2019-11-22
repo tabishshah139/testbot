@@ -20,7 +20,7 @@ const PREFIX = '?';
 bot.on('ready', () =>{
 console.log(`K-G3n is now online in ${bot.guilds.size} servers with ${bot.users.size} members!`);
 bot.user.setStatus('dnd, online, idle');
-bot.user.setActivity(`on ${bot.guilds.size} servers | +help | +invite `);
+bot.user.setActivity(`on ${bot.guilds.size} servers ${bot.users.size} Members`);
 });
 
 bot.on('message', function(message) {
