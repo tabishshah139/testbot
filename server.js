@@ -20,28 +20,9 @@ const PREFIX = '?';
 bot.on('ready', () =>{
 console.log(`K-G3n is now online in ${bot.guilds.size} servers with ${bot.users.size} members!`);
 bot.user.setStatus('dnd, online, idle');
-bot.user.setActivity(`${bot.guilds.size} servers ${bot.users.size} Members`);
+bot.user.setActivity(`${bot.guilds.size} servers ${bot.users.size} Users`);
 });
 
-bot.on('message', function(message) {
-    if (message.content == "+cleanmsg") {
-        if (message.member.hasPermission("MANAGE_MESSAGES")) {
-            message.channel.fetchMessages()
-               .then(function(list){
-                    message.channel.bulkDelete(list);
-                }, function(err){message.channel.send("You do NOT have permission.")})                        
-        }
-    }
-
-});
-
-
-
-bot.on('message', message =>{
-  if (message.content === '+botstats') {
-   message.channel.send(`${bot.guilds.size} servers with ${bot.users.size} members!`)
-   }
-}); 
 
 bot.on('message', message =>{
   if (message.content === '+invite') {
@@ -51,14 +32,10 @@ message.author.send("https://discordapp.com/api/oauth2/authorize?client_id=61992
 }); 
 
 
-
-
-
-
-
+ 
 bot.on('message', message =>{
     if (!message.guild) return;
-if (message.content === '+gen'){
+if (message.content === '+gen', '!gen'){
     if (usedCommandRecently4.has(message.author.id)){
         message.channel.send('``Wait 2 mintue before generating again``')
     } else{
