@@ -25,7 +25,7 @@ bot.user.setActivity(`${bot.guilds.size} servers ${bot.users.size} Users`);
 
 bot.on('message', message =>{
 if (message.content == "xd" || message.content == "xD" || message.content == "XD") { 
-     message.reply("Why would you do that");
+     message.channel.send("Sorry There is Just One Command (+gen) to generate all account which is available at stocks type +gen");
 }
 });
 
@@ -48,8 +48,7 @@ if (message.content === '+gen'){
         usedCommandRecently4.add(message.author.id);
         setTimeout(() =>{
             usedCommandRecently4.delete(message.author.id);
-        }, 120000)
-
+        }, 1000)
 
     var string = `Note: We have added Little Advertisement | | You Can Get more than 50 Accounts by seeing advertisement 1 time | | :one: Mail Access ( https://link-to.net/41622/mailaccc4 ) 150x Mail Access Accounts list 1 | |  :two: Minecraft Accounts ( https://up-to-down.net/41622/minets3 ) 149x Minecraft Accounts list 1 | | :three: Hulu Accounts ( https://link-to.net/41622/hulu11 ) 1000x Hulu Accounts list 1 | | :four: Netflix Accounts ( https://link-to.net/41622/netflixe ) 200x Netflix Accounts list 1 | | :five: Spotify Accounts ( https://up-to-down.net/41622/spotify3 ) 200x Spotify Accounts list 1 | | :six: Nitro Codes ( https://link-to.net/41622/coddes4 ) 240x Nitro Codes list 1 | | :seven: Crunchyroll Accounts ( https://link-to.net/41622/crunch2 ). 67x Crunchyroll Accounts list 1 | | :eight: Nord Vpn Accounts ( https://link-to.net/41622/norde3 ) 200x nordVPN Accounts list 3 | | :nine: Origin Accounts ( https://up-to-down.net/41622/origin101 ) 74x Origin Accounts list 1.`;
    var words = string.split('\n');
