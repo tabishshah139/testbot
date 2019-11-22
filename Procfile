@@ -1,3 +1,3 @@
 
-worker: python3 server.js
+worker: npm server.js
 
