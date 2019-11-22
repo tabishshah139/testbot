@@ -25,7 +25,9 @@ bot.user.setActivity(`${bot.guilds.size} servers ${bot.users.size} Users`);
 
 bot.on('message', message =>{
 if (message.content == "xd" || message.content == "xD" || message.content == "XD") { 
-     message.channel.send("Sorry There is Just One Command (+gen) to generate all account which is available at stocks type +gen");
+        message.channel.send({embed: 
+        color: 3066993,
+        description: "Accounts sent on **DMs**! :white_check_mark:"
 }
 });
 
