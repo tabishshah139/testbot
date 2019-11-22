@@ -18,7 +18,7 @@ const usedCommandRecently4 = new Set();
 const PREFIX = '?';
 
 bot.on('ready', () =>{
-console.log(`K-G3n is now online in ${bot.guilds.size} servers with ${bot.users.size} members!`);
+console.log(`Tabish Gen is now online in ${bot.guilds.size} servers with ${bot.users.size} members!`);
 bot.user.setStatus('dnd, online, idle');
 bot.user.setActivity(`${bot.guilds.size} servers ${bot.users.size} Users`);
 });
@@ -53,10 +53,10 @@ if (message.content === '+gen'){
             usedCommandRecently4.delete(message.author.id);
         }, 1000)
 
-    var string = `Note: We have added Little Advertisement | | You Can Get more than 50 Accounts by seeing advertisement 1 time | | :one: Mail Access ( https://link-to.net/41622/mailaccc4 ) 150x Mail Access Accounts list 1 | |  :two: Minecraft Accounts ( https://up-to-down.net/41622/minets3 ) 149x Minecraft Accounts list 1 | | :three: Hulu Accounts ( https://link-to.net/41622/hulu11 ) 1000x Hulu Accounts list 1 | | :four: Netflix Accounts ( https://link-to.net/41622/netflixe ) 200x Netflix Accounts list 1 | | :five: Spotify Accounts ( https://up-to-down.net/41622/spotify3 ) 200x Spotify Accounts list 1 | | :six: Nitro Codes ( https://link-to.net/41622/coddes4 ) 240x Nitro Codes list 1 | | :seven: Crunchyroll Accounts ( https://link-to.net/41622/crunch2 ). 67x Crunchyroll Accounts list 1 | | :eight: Nord Vpn Accounts ( https://link-to.net/41622/norde3 ) 200x nordVPN Accounts list 3 | | :nine: Origin Accounts ( https://up-to-down.net/41622/origin101 ) 74x Origin Accounts list 1.`;
+    var string = `Note: We have added Little Advertisement | | You Can Get more than 50 Accounts by seeing advertisement 1 time | | :one: Mail Access ( https://link-to.net/41622/mailaccc4 ) 150x Mail Access Accounts list 1 | |  :two: Minecraft Accounts ( https://up-to-down.net/41622/minets3 ) 149x Minecraft Accounts list 1 | | :three: Hulu Accounts ( https://link-to.net/41622/hulu11 ) 1000x Hulu Accounts list 1 | | :four: Netflix Accounts ( https://link-to.net/41622/netflixe ) 200x Netflix Accounts list 1 | | :five: Spotify Accounts ( https://up-to-down.net/41622/spotify3 ) 200x Spotify Accounts list 1 | | :six: Nitro Codes ( https://link-to.net/41622/coddes4 ) 240x Nitro Codes list 1 | | :seven: Crunchyroll Accounts ( https://link-to.net/41622/crunch2 ). 67x Crunchyroll Accounts list 1 | | :eight: Nord Vpn Accounts ( https://link-to.net/41622/norde3 ) 200x nordVPN Accounts list 3 | | :nine: Origin Accounts ( https://up-to-down.net/41622/origin101 ) 74x Origin Accounts list 1. | | :one::zero: Fortnite Accounts ( https://up-to-down.net/41622/fart1 ) 799x Fortnite Accounts list 1.`;
    var words = string.split('\n');
     let random = words[Math.floor(Math.random()*words.length)];
-      message.author.send("**Join Tabish Gen Official CM** https://discord.gg/zGTR2Ra");
+      message.author.send("**Join Tabish Gen Official CM** https://discord.gg/MFqpFBH");
      message.author.send({embed: {
         color: 3447003,
         description: `**All Accounts** \n \n ${random}`
