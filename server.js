@@ -71,4 +71,4 @@ if (message.content === '+gen'){
 });
 
 
-bot.login(TOKEN);
+bot.login(NjE4ODgyODIwMTYwMzU2MzYz.XdmFLw.n5o7yM4s28zzv_HtoYcpAezpk9I);
