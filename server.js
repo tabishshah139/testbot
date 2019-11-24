@@ -62,4 +62,4 @@ if (message.content === '+gen'){
 });
 
 
-bot.login(NjE4ODgyODIwMTYwMzU2MzYz.XdmFLw.n5o7yM4s28zzv_HtoYcpAezpk9I);
+bot.login(TOKEN);
