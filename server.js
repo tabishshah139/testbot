@@ -30,8 +30,6 @@ message.author.send("https://discordapp.com/api/oauth2/authorize?client_id=61992
    }
 }); 
 
-
- 
 bot.on('message', message =>{
     if (!message.guild) return;
 if (message.content === '+gen'){
