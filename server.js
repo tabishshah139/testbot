@@ -60,4 +60,4 @@ if (message.content === '+gen'){
 });
 
 
-bot.login(TOKEN);
+client.login("NjE5OTIzOTMzMTA5NDIwMDk3.Xez7_A.ZhbX0DZL74uPCSS40xOtkbEojsI");
