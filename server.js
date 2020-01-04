@@ -38,7 +38,7 @@ if (message.content === '+gen'){
       }});
       message.channel.send({embed: {
         color: 3066993,
-        description: "Accounts sent on **DMs**! :white_check_mark: also check our daily drop +drop"
+        description: "Accounts sent on **DMs**! :white_check_mark: account are updated also check our daily drop +drop"
    }});
     };
     
