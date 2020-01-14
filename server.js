@@ -48,7 +48,7 @@ if (message.content === '+gen'){
 bot.on('message', message =>{
   if (message.content === '+drop') {
    message.channel.send(`Daily Drops Account has sent to your **DMs** :white_check_mark:`)
-message.author.send(":one: Random Drop You Can See Detail About Account by visiting this link 8th january 2020 ( https://link-to.net/41622/dailydrop ). Offocial Server ( https://discord.gg/3PjwaCH ).");
+message.author.send(":one: Random Drop You Can See Detail About Account by visiting this link 14th january 2020 ( https://link-to.net/41622/dailydrop ). Offocial Server ( https://discord.gg/3PjwaCH ).");
    }
 }); 
 
