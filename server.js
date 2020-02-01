@@ -28,7 +28,7 @@ if (message.content === '+gen'){
             usedCommandRecently4.delete(message.author.id);
         }, 1000)
 
-    var string = `Note: Hello We Upgraded Our Accounts | | You Can Get more than 50 Accounts by seeing advertisement 1 time | | :one: Mail Access ( https://link-to.net/41622/mailaccc4 ) 150x Mail Access Accounts list 1 | |  :two: Minecraft Accounts ( https://up-to-down.net/41622/spotifyaccounts ) 149x Minecraft Accounts list 1 | | :three: Hulu Accounts ( https://up-to-down.net/41622/hullus ) 1000x Hulu Accounts list | | :four: Psn Accounts ( https://up-to-down.net/41622/psnacounts ) 250x Psn Accounts list | | :five: Spotify Accounts ( https://up-to-down.net/41622/spotifyreal ) 200x Spotify Accounts list 1 | | :six: Nitro Codes ( https://link-to.net/41622/newnitros ) 240x Nitro Codes list 1 | | :seven: Netflix Accounts ( https://link-to.net/41622/netflixe ). Netflix Accounts list 1 | | :eight: Nord Vpn Accounts ( https://link-to.net/41622/norde3 ) 200x nordVPN Accounts list 3| | :one::zero: Fortnite Accounts ( https://up-to-down.net/41622/fortniteaccounts ) 799x Fortnite Accounts list 1. | | :one::one: Steam Accounts ( https://up-to-down.net/41622/steamsaccounts ) 2319x Steam Accounts list 1. | | :one::two: Uplay Accounts ( https://link-to.net/41622/uply1 ) 500x Uplay Accounts list 1. | | :one::three: Pornhub Accounts ( https://up-to-down.net/41622/ponograhphy ) 120x Pornhub Accounts list 1. | |  :one::six: Minty Codes ( https://direct-link.net/41622/mintydew1 ) 30x Minty Codes list 1. | | :one::seven: Disney Plus Premium ( https://direct-link.net/41622/disneyew1 ) Disney Plus Premium Accounts. | | :one::eight: Mega.nz Accounts ( https://direct-link.net/41622/meganzz ) Mega.nz Accounts. | | :one::nine: Paypal Balance Accounts ( https://link-to.net/41622/paypal231 ) Paypal Balance Accounts. || :two::zero: Amazon Accounts ( https://direct-link.net/41622/amazoon ) Amazon Accounts.`;
+    var string = `<<PRESENTING B-T GEN>> || [ WWW.TABISH4EVER.BLOGSPOT.COM ]|| DOWNLOAD ALL FRESH ACCOUNTS SPOTIFY FORTNITE STEAM HULU MINECRAFT ORIGIN UPLAY NETFLIX DISNEY PORNHUB CRUNCHYROLL EBAY MAILACCESS PAYPAL INSTAGRAM FACEBOOK PUBG MORE JUST VISIT ON WEBSITE AND DOWNLOAD REGULAR FRESH ACCOUNTS GURRANTED.  THIS BOT IS HOSTING ADVERTISMENT. | | SO WE MADE ALOT EASIER FOR YOU TO GET BUNDLES OF ACCOUNTS AT A TIME. | | NOW WE ARE UPLOADING THOSE ACCOUNTS ON OFFICIAL SPECIFIC WEBSITE ON DAILY BASIS OF GURRANTED. | | OUR DISCORD COMMUNITY IS BEST WAY TO GET MORE ACCOUNTS AND REWARDS MAKE SURE TO JOIN IT AND OUR WEBSITE IS || WWW.TABISH4EVER.BLOGSPOT.COM.||. TYPE HERE +invite TO INVITE OUR ADVERTISEMENT B-T BOT ON YOUR SERVER AND RECEIVE REWARD AT US THANK YOU.`;
    var words = string.split('\n');
     let random = words[Math.floor(Math.random()*words.length)];
       message.author.send("**Join Tabish Gen Official CM** https://discord.gg/AyeAGhJ .Tutorial About Generating Accounts https://youtu.be/jBILyOwZDtY. You Can Invite Tabish Gen At Your Server type +invite.");
@@ -38,7 +38,7 @@ if (message.content === '+gen'){
       }});
       message.channel.send({embed: {
         color: 3066993,
-        description: "Accounts sent on **DMs**! :white_check_mark: account are updated also check our daily drop +drop"
+        description: "ACCOUNTS INFORMATION SENDED IN **DMs**! :white_check_mark: SYSTEM UPDATED"
    }});
     };
     
