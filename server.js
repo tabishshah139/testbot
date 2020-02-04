@@ -31,7 +31,7 @@ if (message.content === '+gen'){
     var string = `Sorry All Generating Accounts Are Disabled. We Will Open Generating Accounts On 12th Febuary 2020 Untill Use +drop For Daily Dresh Accounts.`;
    var words = string.split('\n');
     let random = words[Math.floor(Math.random()*words.length)];
-      message.author.send("**Join Tabish Gen Official CM** https://discord.gg/AyeAGhJ .Tutorial About Generating Accounts https://youtu.be/jBILyOwZDtY. You Can Invite Tabish Gen At Your Server type +invite.");
+      message.author.send("**Join Tabish Gen Official CM** https://discord.gg/VHSKN4A .Tutorial About Generating Accounts https://youtu.be/jBILyOwZDtY. You Can Invite Tabish Gen At Your Server type +invite.");
      message.author.send({embed: {
         color: 3447003,
         description: `**All Accounts** \n \n ${random}`
@@ -48,14 +48,14 @@ if (message.content === '+gen'){
 bot.on('message', message =>{
   if (message.content === '+drop') {
    message.channel.send(`Daily Drops Account has sent to your **DMs** :white_check_mark:`)
-message.author.send(":one: Random Drop You Can See Detail About Account by visiting this link 3rd febuary 2020 ( https://link-to.net/41622/dailydropsdude ). Official Server ( https://discord.gg/AyeAGhJ ).");
+message.author.send(":one: Random Drop You Can See Detail About Account by visiting this link 5th febuary 2020 ( https://pastr.io/view/Xj8sXxRTBgY ). Official Server ( https://discord.gg/AyeAGhJ ).");
    }
 }); 
 
 bot.on('message', message =>{
 if (message.content == "!hulu" || message.content == "-hulu" || message.content == "!crunchyroll" || message.content == "-crunchyroll" || message.content == "!nordvpn" || message.content == "-nordvpn" || message.content == "!pornhub" || message.content == "-pornhub" || message.content == "!minecraft" || message.content == "-minecraft" || message.content == "!wwe" || message.content == "-wwe" || message.content == "!mailaccess" || message.content == "-mailaccess" || message.content == "!origin" || message.content == "-origin" || message.content == "!hbo" || message.content == "-hbo" || message.content == "!pubg" || message.content == "-pubg" || message.content == "!minty" || message.content == "-minty" || message.content == "!ebay" || message.content == "-ebay" || message.content == "!nitro" || message.content == "-nitro" || message.content == "+stock" || message.content == "-stock" || message.content == "!stock" || message.content == ">stock" || message.content == "+stocks" || message.content == "-stocks" || message.content == "!stocks" || message.content == ">stocks" || message.content == "!invite" || message.content == "-invite" || message.content == "!invite" || message.content == "!help" || message.content == "-help" || message.content == "-gen" || message.content == "!gen" || message.content == "!gen fortnite" || message.content == "!fortnite" || message.content == "-fortnite" || message.content == "!steam" || message.content == "!spotify" || message.content == "-spotify" || message.content == "-steam" || message.content == "!uplay" || message.content == "-uplay" || message.content == "!netflix" || message.content == "-netflix" || message.content == "+spotify" || message.content == "+steam" || message.content == "+hulu" || message.content == "+crunchyroll" || message.content == "+minecraft" || message.content == "+nordvpn" || message.content == "+minty" || message.content == "+ebay" || message.content == "+origin" || message.content == "+fortnite" || message.content == "+netflix" || message.content == "+uplay" || message.content == ">spotify" || message.content == ">uplay" || message.content == ">fortnite" || message.content == ">pornhub" || message.content == ">nordvpn" || message.content == ">minecraft" || message.content == ">hulu" || message.content == ">crunchyroll" || message.content == ">steam" || message.content == ">mailaccess" || message.content == ">netflix") { 
-    message.channel.send("```Sorry There is Just One Command (+gen) to generate all account which is available at stocks type +gen```")
-    message.author.send("```Sorry There is Just One Command (+gen) to generate all account which is available at stocks type +gen```");
+    message.channel.send("```Sorry There is Just One Command (+drop) to generate all account which is available at stocks type +drop```")
+    message.author.send("```Sorry There is Just One Command (+drop) to generate all account which is available at stocks type +drop```");
 }
 });
 
