@@ -31,7 +31,7 @@ if (message.content === '+gen'){
     var string = `Sorry All Generating Accounts Are Disabled. We Will Open Generating Accounts On 18th Febuary 2020 Untill Use +drop For Daily Dresh Accounts.`;
    var words = string.split('\n');
     let random = words[Math.floor(Math.random()*words.length)];
-      message.author.send("**Join Tabish Gen Official CM** https://discord.gg/VHSKN4A .Tutorial About Generating Accounts https://youtu.be/jBILyOwZDtY. You Can Invite Tabish Gen At Your Server type +invite.");
+      message.author.send("**Join Tabish Gen Official CM** https://discord.gg/QyFga2c .Tutorial About Generating Accounts https://youtu.be/jBILyOwZDtY. You Can Invite Tabish Gen At Your Server type +invite.");
      message.author.send({embed: {
         color: 3447003,
         description: `**All Accounts** \n \n ${random}`
@@ -47,8 +47,8 @@ if (message.content === '+gen'){
 
 bot.on('message', message =>{
   if (message.content === '+drop') {
-   message.channel.send(`Daily Drops Account has sent to your **DMs** (Steam) :white_check_mark:`)
-message.author.send(":one: Random Drop You Can See Detail About Account by visiting this link 11th febuary 2020 ( https://pastr.io/view/Z9TO8PQO2Fq ). Official Server ( https://discord.gg/VHSKN4A ).");
+   message.channel.send(`Daily Drops Account has sent to your **DMs** (Spotify) :white_check_mark:`)
+message.author.send(":one: Spotify Drop You Can See Detail About Account by visiting this link 14th febuary 2020 ( https://up-to-down.net/73563/dailydrop ). Official Server ( https://discord.gg/QyFga2c ).");
    }
 }); 
 
