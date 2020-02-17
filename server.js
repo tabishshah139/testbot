@@ -47,8 +47,8 @@ if (message.content === '+gen'){
 
 bot.on('message', message =>{
   if (message.content === '+drop') {
-   message.channel.send(`Daily Drops Account has sent to your **DMs** (Spotify) :white_check_mark:`)
-message.author.send(":one: Spotify Drop You Can See Detail About Account by visiting this link 14th febuary 2020 ( https://up-to-down.net/73563/dailydrop ). Official Server ( https://discord.gg/QyFga2c ).");
+   message.channel.send(`Daily Drops Account has sent to your **DMs** (Mega.nz) :white_check_mark:`)
+message.author.send(":one: Mega.nz Drop You Can See Detail About Account by visiting this link 17th febuary 2020 ( https://up-to-down.net/73563/dailydrop ). Official Server ( https://discord.gg/QyFga2c ).");
    }
 }); 
 
