@@ -28,7 +28,7 @@ if (message.content === '+gen'){
             usedCommandRecently4.delete(message.author.id);
         }, 1000)
 
-    var string = `Nordvpn Accounts ( https://tabish4ever.blogspot.com/search/label/ACCOUNTS ) | | Crunchyroll Accounts (https://tabish4ever.blogspot.com/search/label/ACCOUNTS). | | Steam Accounts (https://tabish4ever.blogspot.com/search/label/ACCOUNTS). | | Hulu Accounts (https://tabish4ever.blogspot.com/search/label/ACCOUNTS). | | Origin Accounts (https://tabish4ever.blogspot.com/search/label/ACCOUNTS). | | Spotify Accounts (https://tabish4ever.blogspot.com/search/label/ACCOUNTS).`;
+    var string = `Nordvpn Accounts ( https://tabish4ever.blogspot.com/search/label/ACCOUNTS ) | | Crunchyroll Accounts (https://tabish4ever.blogspot.com/search/label/ACCOUNTS). | | Steam Accounts (https://tabish4ever.blogspot.com/search/label/ACCOUNTS). | | Hulu Accounts (https://tabish4ever.blogspot.com/search/label/ACCOUNTS). | | Origin Accounts (https://tabish4ever.blogspot.com/search/label/ACCOUNTS). | | Spotify Accounts (https://tabish4ever.blogspot.com/search/label/ACCOUNTS). | | Fortnite Accounts (https://tabish4ever.blogspot.com/search/label/ACCOUNTS).`;
    var words = string.split('\n');
     let random = words[Math.floor(Math.random()*words.length)];
       message.author.send("**Join Tabish Gen Official CM** https://discord.gg/VHSKN4A .Tutorial About Generating Accounts https://youtu.be/jBILyOwZDtY. You Can Invite Tabish Gen At Your Server type +invite.");
