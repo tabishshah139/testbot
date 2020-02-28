@@ -47,8 +47,8 @@ if (message.content === '+gen'){
 
 bot.on('message', message =>{
   if (message.content === '+drop') {
-   message.channel.send(`Daily Drops Account has sent to your **DMs** (Crunchyroll) :white_check_mark:`)
-message.author.send(":one: Crunchyroll Drop You Can See Detail About Account by visiting this link 26th febuary 2020 ( https://up-to-down.net/73563/dailydrop ). Official Server ( https://discord.gg/VHSKN4A ).");
+   message.channel.send(`Daily Drops Account has sent to your **DMs** (Uplay) :white_check_mark:`)
+message.author.send(":one: Uplay Accounts Drop You Can See Detail About Account by visiting this link 28th febuary 2020 ( https://link-to.net/73563/dailydrop ). Official Server ( https://discord.gg/VHSKN4A ).");
    }
 }); 
 
