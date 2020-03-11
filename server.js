@@ -48,7 +48,7 @@ if (message.content === '+gen'){
 bot.on('message', message =>{
   if (message.content === '+drop') {
    message.channel.send(`Daily Drops Account has sent to your **DMs** (Uplay) :white_check_mark:`)
-message.author.send(":one: Uplay Accounts Drop You Can See Detail About Account by visiting this link 5th March 2020 ( https://link-to.net/73563/dailydrop ). Official Server ( https://discord.gg/VHSKN4A ).");
+message.author.send(":one: Uplay Accounts Drop You Can See Detail About Account by visiting this link 11th March 2020 ( https://link-to.net/73563/dailydrop ). Official Server ( https://discord.gg/VHSKN4A ).");
    }
 }); 
 
