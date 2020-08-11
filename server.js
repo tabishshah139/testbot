@@ -31,7 +31,7 @@ if (message.content === '+gen'){
     var string = `DOWNLOAD ACCOUNTS ON THIS WEBSITE VISIT AND CHOOSE ACCOUNTS ( https://tabish4ever.blogspot.com/search/label/ACCOUNTS ).`;
    var words = string.split('\n');
     let random = words[Math.floor(Math.random()*words.length)];
-      message.author.send("**Join Tabish Gen Official CM** https://discord.gg/kbXNrH8 . You Can Invite Tabish Gen At Your Server type +invite.");
+      message.author.send("**Join Tabish Gen Official CM** https://discord.gg/gEtpmRe . You Can Invite Tabish Gen At Your Server type +invite.");
      message.author.send({embed: {
         color: 3447003,
         description: `**All Accounts** \n \n ${random}`
@@ -48,7 +48,7 @@ if (message.content === '+gen'){
 bot.on('message', message =>{
   if (message.content === '+drop') {
    message.channel.send(`Daily Drops Account has sent to your **DMs** (Uplay) :white_check_mark:`)
-message.author.send(":one: Uplay Accounts Drop You Can See Detail About Account by visiting this link 11th March 2020 ( https://link-to.net/73563/dailydrop ). Official Server ( https://discord.gg/kbXNrH8 ).");
+message.author.send(":one: Uplay Accounts Drop You Can See Detail About Account by visiting this link 11th August 2020 ( https://ouo.io/RS87Gp ). Official Server ( https://discord.gg/gEtpmRe ).");
    }
 }); 
 
