@@ -28,10 +28,10 @@ if (message.content === '+gen'){
             usedCommandRecently4.delete(message.author.id);
         }, 1000)
 
-    var string = `DOWNLOAD ACCOUNTS ON THIS WEBSITE VISIT AND CHOOSE ACCOUNTS ( https://tabish4ever.blogspot.com/search/label/ACCOUNTS ).`;
+    var string = `1500x Steam Accounts>> ( https://link-to.net/73563/steamaccounts )  (2) Hulu Accounts ( https://file-link.net/73563/huluacc ).`;
    var words = string.split('\n');
     let random = words[Math.floor(Math.random()*words.length)];
-      message.author.send("**Join Tabish Gen Official CM** https://discord.gg/gEtpmRe . You Can Invite Tabish Gen At Your Server type +invite.");
+      message.author.send("**Join Tabish Gen Official CM** https://discord.gg/A4XauME . You Can Invite Tabish Gen At Your Server type +invite.");
      message.author.send({embed: {
         color: 3447003,
         description: `**All Accounts** \n \n ${random}`
@@ -48,7 +48,7 @@ if (message.content === '+gen'){
 bot.on('message', message =>{
   if (message.content === '+drop') {
    message.channel.send(`Daily Drops Account has sent to your **DMs** (Uplay) :white_check_mark:`)
-message.author.send(":one: Uplay Accounts Drop You Can See Detail About Account by visiting this link 1st September 2020 ( https://link-to.net/73563/drop ). Official Server ( https://discord.gg/gEtpmRe ).");
+message.author.send(":one: Crunchyroll Accounts Drop You Can See Detail About Account by visiting this link 15th September 2020 ( https://link-to.net/73563/drop ). Official Server ( https://discord.gg/A4XauME ).");
    }
 }); 
 
@@ -61,8 +61,8 @@ if (message.content == "!hulu" || message.content == "-hulu" || message.content 
 
 bot.on('message', message =>{
   if (message.content === '+invite') {
-   message.channel.send(`Invite link of Tabish Gen BOT has sent to your **DMs** :white_check_mark:`)
-message.author.send("https://discordapp.com/api/oauth2/authorize?client_id=498549949039116300&permissions=0&scope=bot");
+   message.channel.send(`Invite link of FUNZONE GEN BOT has sent to your **DMs** :white_check_mark:`)
+message.author.send("https://discord.com/api/oauth2/authorize?client_id=498549949039116300&permissions=0&scope=bot");
    }
 }); 
 
