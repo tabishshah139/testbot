@@ -28,7 +28,7 @@ if (message.content === '+accounts'){
             usedCommandRecently4.delete(message.author.id);
         }, 1000)
 
-    var string = `1500x Steam Accounts>> ( https://link-to.net/73563/steamaccounts )  (2) Hulu Accounts ( https://file-link.net/73563/huluacc ).`;
+    var string = ` |1500x Steam Accounts>> ( https://link-to.net/73563/steamaccounts )  (2) Hulu Accounts ( https://file-link.net/73563/huluacc ) .`;
    var words = string.split('\n');
     let random = words[Math.floor(Math.random()*words.length)];
       message.author.send("**Join Tabish Gen Official CM** https://discord.gg/A4XauME . You Can Invite FUNZONE BOT At Your Server type +invite.");
