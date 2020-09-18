@@ -47,8 +47,8 @@ if (message.content === '+accounts'){
 
 bot.on('message', message =>{
   if (message.content === '+drop') {
-   message.channel.send(`Daily Drops Account has sent to your **DMs** (Crunchyroll) :white_check_mark:`)
-message.author.send(":one: Crunchyroll Accounts Drop You Can See Detail About Account by visiting this link 15th September 2020 ( https://link-to.net/73563/drop ). Official Server ( https://discord.gg/A4XauME ).");
+   message.channel.send(`Daily Drops Account has sent to your **DMs** (Mega.nz) :white_check_mark:`)
+message.author.send(":one: Mega.nz Accounts Drop You Can See Detail About Account by visiting this link 18th September 2020 ( https://direct-link.net/73563/drop ). Official Server ( https://discord.gg/A4XauME ).");
    }
 }); 
 
