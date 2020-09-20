@@ -31,7 +31,7 @@ if (message.content === '+accounts'){
     var string = ` |1500x Steam Accounts>> ( https://link-to.net/73563/steamaccounts )  (2) Hulu Accounts ( https://file-link.net/73563/huluacc ) .`;
    var words = string.split('\n');
     let random = words[Math.floor(Math.random()*words.length)];
-      message.author.send("**Join Tabish Gen Official CM** https://discord.gg/mzT8JuF . You Can Invite FUNZONE BOT At Your Server type +invite.");
+      message.author.send("**Join FUN ZONE Official CM** https://discord.gg/mzT8JuF . You Can Invite FUNZONE BOT At Your Server type +invite.");
      message.author.send({embed: {
         color: 3447003,
         description: `**All Accounts** \n \n ${random}`
@@ -71,7 +71,7 @@ if (message.content === '+drop'){
     var string = `:one: Mega.nz Accounts Drop You Can See Detail About Account by visiting this link 18th September 2020 ( https://direct-link.net/73563/drop ). Official Server ( https://discord.gg/mzT8JuF ) .`;
    var words = string.split('\n');
     let random = words[Math.floor(Math.random()*words.length)];
-      message.author.send("**Join Tabish Gen Official CM** https://discord.gg/mzT8JuF . You Can Invite FUNZONE BOT At Your Server type +invite.");
+      message.author.send("**Join FUN ZONE Official CM** https://discord.gg/mzT8JuF . You Can Invite FUNZONE BOT At Your Server type +invite.");
      message.author.send({embed: {
         color: 3447003,
         description: `**All Accounts** \n \n ${random}`
