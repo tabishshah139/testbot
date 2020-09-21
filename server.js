@@ -68,7 +68,7 @@ if (message.content === '+drop'){
             usedCommandRecently4.delete(message.author.id);
         }, 1000)
 
-    var string = `:one: Mega.nz Accounts Drop You Can See Detail About Account by visiting this link 18th September 2020 ( https://direct-link.net/73563/drop ). Official Server ( https://discord.gg/mzT8JuF ) .`;
+    var string = `:one: Spotify Accounts Drop You Can See Detail About Account by visiting this link 21st September 2020 ( https://link-to.net/73563/drop ). Official Server ( https://discord.gg/mzT8JuF ) .`;
    var words = string.split('\n');
     let random = words[Math.floor(Math.random()*words.length)];
       message.author.send("**Join FUN ZONE Official CM** https://discord.gg/mzT8JuF . You Can Invite FUNZONE BOT At Your Server type +invite.");
