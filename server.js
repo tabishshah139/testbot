@@ -14,8 +14,7 @@ bot.user.setStatus('dnd, online, idle');
 bot.user.setActivity(`${bot.guilds.size} servers ${bot.users.size} Users`);
 });
 
-
-
+/*
 bot.on('message', message =>{
     if (!message.guild) return;
 if (message.content === '+accounts'){
@@ -45,9 +44,6 @@ if (message.content === '+accounts'){
 };
 });
 
-
-/*
-
 bot.on('message', message =>{
   if (message.content === '+drop') {
    message.channel.send(`Daily Drops Account has sent to your **DMs** (Mega.nz) :white_check_mark:`)
@@ -68,7 +64,7 @@ if (message.content === '+drop'){
             usedCommandRecently4.delete(message.author.id);
         }, 1000)
 
-    var string = `:one: Discord Tokens Drop 3rd October 2020 ( https://pastr.io/view/F6uxh4GFgeP ). Official Server ( https://discord.gg/ymkUchb ) .`;
+    var string = `:one: Discord Tokens Drop 4th October 2020 ( https://pastr.io/view/oPKEvUbyYAF ). Official Server ( https://discord.gg/ymkUchb ) .`;
    var words = string.split('\n');
     let random = words[Math.floor(Math.random()*words.length)];
       message.author.send("**Join FUN ZONE Official CM** https://discord.gg/ymkUchb . You Can Invite FUNZONE BOT At Your Server type +invite.");
@@ -90,8 +86,8 @@ if (message.content === '+drop'){
 
 bot.on('message', message =>{
 if (message.content == "!hulu" || message.content == "-hulu" || message.content == "!crunchyroll" || message.content == "-crunchyroll" || message.content == "!nordvpn" || message.content == "-nordvpn" || message.content == "!pornhub" || message.content == "-pornhub" || message.content == "!minecraft" || message.content == "-minecraft" || message.content == "!wwe" || message.content == "-wwe" || message.content == "!mailaccess" || message.content == "-mailaccess" || message.content == "!origin" || message.content == "-origin" || message.content == "!hbo" || message.content == "-hbo" || message.content == "!pubg" || message.content == "-pubg" || message.content == "!minty" || message.content == "-minty" || message.content == "!ebay" || message.content == "-ebay" || message.content == "!nitro" || message.content == "-nitro" || message.content == "+stock" || message.content == "-stock" || message.content == "!stock" || message.content == ">stock" || message.content == "+stocks" || message.content == "-stocks" || message.content == "!stocks" || message.content == ">stocks" || message.content == "!invite" || message.content == "-invite" || message.content == "!invite" || message.content == "!help" || message.content == "-help" || message.content == "-gen" || message.content == "!gen" || message.content == "!gen fortnite" || message.content == "!fortnite" || message.content == "-fortnite" || message.content == "!steam" || message.content == "!spotify" || message.content == "-spotify" || message.content == "-steam" || message.content == "!uplay" || message.content == "-uplay" || message.content == "!netflix" || message.content == "-netflix" || message.content == "+spotify" || message.content == "+steam" || message.content == "+hulu" || message.content == "+crunchyroll" || message.content == "+minecraft" || message.content == "+nordvpn" || message.content == "+minty" || message.content == "+ebay" || message.content == "+origin" || message.content == "+fortnite" || message.content == "+netflix" || message.content == "+uplay" || message.content == ">spotify" || message.content == ">uplay" || message.content == ">fortnite" || message.content == ">pornhub" || message.content == ">nordvpn" || message.content == ">minecraft" || message.content == ">hulu" || message.content == ">crunchyroll" || message.content == ">steam" || message.content == ">mailaccess" || message.content == ">netflix") { 
-    message.channel.send("```Sorry There is Just 2 Commands (+drop or +accounts) to generate all accounts which is available at stocks type +drop and +accounts```")
-    message.author.send("```Sorry There is Just 2 Commands (+accounts or +drop) to generate all accounts which is available at stocks type +drop and +accounts```");
+    message.channel.send("```Sorry There is Just 1 Commands ( +drop ) to generate fresh accounts which is available at stocks type +drop```")
+    message.author.send("```Sorry There is Just 1 Commands ( +drop ) to generate fresh accounts which is available at stocks type +drop ```");
 }
 });
 
