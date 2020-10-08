@@ -64,7 +64,7 @@ if (message.content === '+drop'){
             usedCommandRecently4.delete(message.author.id);
         }, 1000)
 
-    var string = `:one: Origin Accounts Drop 6th October 2020 ( https://pastr.io/view/1eDhoTisDKo ). Official Server ( https://discord.gg/ymkUchb ) .`;
+    var string = `:white_check_mark: Nordvpn Accounts Drop 8th October 2020 ( https://pastr.io/view/uAZUpvJLe2v ). Official Server ( https://discord.gg/ymkUchb ) .`;
    var words = string.split('\n');
     let random = words[Math.floor(Math.random()*words.length)];
       message.author.send("**Join FUN ZONE Official CM** https://discord.gg/ymkUchb . You Can Invite FUNZONE BOT At Your Server type +invite.");
