@@ -64,7 +64,7 @@ if (message.content === '+drop'){
             usedCommandRecently4.delete(message.author.id);
         }, 1000)
 
-    var string = `:white_check_mark: Psn Account Drop 15th November 2020 ( https://throwbin.io/vFxr53T ). Official Server ( https://discord.gg/ymkUchb ) .`;
+    var string = `:white_check_mark: Hulu Accounts Drop 16th November 2020 ( https://throwbin.io/uHPopBN ). Official Server ( https://discord.gg/ymkUchb ) .`;
    var words = string.split('\n');
     let random = words[Math.floor(Math.random()*words.length)];
       message.author.send("**Join FUN ZONE Official CM** https://discord.gg/ymkUchb . You Can Invite FUNZONE BOT At Your Server type +invite.");
