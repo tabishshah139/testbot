@@ -64,7 +64,7 @@ if (message.content === '+drop'){
             usedCommandRecently4.delete(message.author.id);
         }, 1000)
 
-    var string = `:white_check_mark: :one: Steam 1k Accounts Drop 17th November 2020 ( https://throwbin.io/TdToPHX ). :two: Nordvpn Accounts 17th Nov 2020 (https://throwbin.io/qmNp7zn). Official Server ( https://discord.gg/ymkUchb ) .`;
+    var string = `:white_check_mark: :one: Minecraft Accounts Drop 19th November 2020 ( https://up-to-down.net/73563/dailydrops ). Official Server ( https://discord.gg/ymkUchb ) .`;
    var words = string.split('\n');
     let random = words[Math.floor(Math.random()*words.length)];
       message.author.send("**Join FUN ZONE Official CM** https://discord.gg/ymkUchb . You Can Invite FUNZONE BOT At Your Server type +invite.");
